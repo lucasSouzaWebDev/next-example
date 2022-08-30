@@ -1,11 +1,14 @@
-import styles from '../styles/Estiloso.module.css'
+import styles from '../styles/Styled.module.css'
+import Layout from '../components/Layout'
 import Link from 'next/link'
 
-export default function Estiloso() {
+export default function Styled() {
     return (
-        <div className={styles.red}>
-            <h1>Estilo usando Módulos CSS</h1>
-            <Link href="/" >Voltar</Link>
-        </div>
+        <Layout title="Exemplo de CSS Modularizado">
+            <div className={styles.red}>
+                <h1>Estilo usando Módulos CSS</h1>
+            </div>
+        </Layout>
+        
     )
 }

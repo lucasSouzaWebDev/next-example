@@ -12,6 +12,8 @@ export default function Start() {
             <Navbar to="/styled" label="styled" />
             <Navbar to="/example" label="example" color="#2cbb1f" />
             <Navbar to="/jsx" label="jsx" color="crimson" />
+            <Navbar to="/navigation" label="Navegação #01" color="purple" />
+            <Navbar to="/customer/pr-3/123" label="Navegação #02" color="purple" />
         </div>
     )
 }

@@ -16,6 +16,7 @@ export default function Start() {
             <Navbar to="/customer/pr-3/123" label="Navegação #02" color="purple" />
             <Navbar to="/state" label="Componente com Estado" color="#a45b71" />
             <Navbar to="/integration_1" label="Integração com API #01" color="#42a9a9" />
+            <Navbar to="/static" label="Conteudo estático" color="#fa054a" />
         </div>
     )
 }
